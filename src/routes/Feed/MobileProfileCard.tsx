@@ -15,8 +15,8 @@ const MobileProfileCard: React.FC<Props> = () => {
         <div className="wrapper">
           <Image
             src={CONFIG.profile.image}
-            width={90}
-            height={90}
+            width={50}
+            height={50}
             css={{ position: "relative" }}
             alt="profile_image"
           />
