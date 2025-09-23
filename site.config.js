@@ -1,62 +1,59 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
-    instagram: "",
+    name: "YourName", // Replace with your actual name
+    image: "/avatar.svg", // You can change this later with your own image
+    role: "CTF Player & Security Researcher",
+    bio: "Documenting CTF writeups and web security learnings. Always learning, always hacking.",
+    email: "your-email@example.com", // Replace with your email
+    linkedin: "your-linkedin-username", // Replace with your LinkedIn username (optional)
+    github: "your-github-username", // Replace with your GitHub username
+    instagram: "", // Optional - add if you want
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `CTF Blog`,
+      href: "https://github.com/your-username/morethan-log", // Replace with your forked repo URL
     },
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
-    scheme: "dark", // 'light' | 'dark' | 'system'
+    title: "CTF Writeups & Security Blog",
+    description: "CTF writeups, web security research, and penetration testing insights!",
+    scheme: "dark", // 'light' | 'dark' | 'system' - dark is perfect for CTF content
   },
-
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
+  link: "https://your-blog-name.vercel.app", // This will be your actual Vercel URL
+  since: 2024, // Year you started blogging
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
-  ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
-
+  ogImageGenerateURL: "https://og-image-korean.vercel.app", // Keep this as is
   // notion configuration (required)
   notionConfig: {
     pageId: process.env.NOTION_PAGE_ID,
   },
-
   // plugin configuration (optional)
   googleAnalytics: {
-    enable: false,
+    enable: true, // Enable this for tracking blog views
     config: {
       measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
     },
   },
   googleSearchConsole: {
-    enable: false,
+    enable: true, // Enable for better SEO
     config: {
       siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
     },
   },
   naverSearchAdvisor: {
-    enable: false,
+    enable: false, // Keep disabled unless you need Korean search optimization
     config: {
       siteVerification: process.env.NEXT_PUBLIC_NAVER_SITE_VERIFICATION || "",
     },
   },
   utterances: {
-    enable: true,
+    enable: true, // Great for CTF community discussions
     config: {
-      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
+      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "", // Format: "your-username/your-repo-name"
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
