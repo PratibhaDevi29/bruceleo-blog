@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "YourName", // Replace with your actual name
-    image: "/public/bruceleo.png", // You can change this later with your own image
+    image: "/bruceleo.png", // You can change this later with your own image
     role: "CTF Player & Security Researcher",
     bio: "Documenting CTF writeups and web security learnings. Always learning, always hacking.",
     email: "your-email@example.com", // Replace with your email
