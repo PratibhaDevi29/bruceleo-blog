@@ -10,7 +10,13 @@ const CONFIG = {
     github: "your-github-username", // Replace with your GitHub username
     instagram: "", // Optional - add if you want
   },
- 
+   projects: [
+    {
+      name: "CTF Blog",
+      href: "https://github.com/your-github-username/morethan-log",
+    },
+  ],
+
   // blog setting (required)
   blog: {
     title: "CTF Writeups & Security Blog",
