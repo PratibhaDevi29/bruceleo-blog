@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "YourName", // Replace with your actual name
-    image: "/avatar.svg", // You can change this later with your own image
+    image: "/public/bruceleo.png", // You can change this later with your own image
     role: "CTF Player & Security Researcher",
     bio: "Documenting CTF writeups and web security learnings. Always learning, always hacking.",
     email: "your-email@example.com", // Replace with your email
@@ -10,12 +10,7 @@ const CONFIG = {
     github: "your-github-username", // Replace with your GitHub username
     instagram: "", // Optional - add if you want
   },
-  projects: [
-    {
-      name: `CTF Blog`,
-      href: "https://github.com/your-username/morethan-log", // Replace with your forked repo URL
-    },
-  ],
+ 
   // blog setting (required)
   blog: {
     title: "CTF Writeups & Security Blog",
