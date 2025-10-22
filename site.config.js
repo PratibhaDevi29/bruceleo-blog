@@ -6,7 +6,7 @@ const CONFIG = {
     role: "CTF Player & Security Researcher",
     bio: "Documenting CTF writeups and web security learnings. Always learning, always hacking.",
     email: "prathibadevi.29@gmail.com", // Replace with your email
-    linkedin: "www.linkedin.com/in/prathiba-devi-a4a421262", // Replace with your LinkedIn username (optional)
+    linkedin: "/prathiba-devi-a4a421262", // Replace with your LinkedIn username (optional)
     github: "your-github-username", // Replace with your GitHub username
     instagram: "", // Optional - add if you want
   },
