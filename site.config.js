@@ -1,12 +1,12 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "YourName", // Replace with your actual name
+    name: "Prathiba Devi", // Replace with your actual name
     image: "/bruceleo.png", // You can change this later with your own image
     role: "CTF Player & Security Researcher",
     bio: "Documenting CTF writeups and web security learnings. Always learning, always hacking.",
-    email: "your-email@example.com", // Replace with your email
-    linkedin: "your-linkedin-username", // Replace with your LinkedIn username (optional)
+    email: "prathibadevi.29@gmail.com", // Replace with your email
+    linkedin: "www.linkedin.com/in/prathiba-devi-a4a421262", // Replace with your LinkedIn username (optional)
     github: "your-github-username", // Replace with your GitHub username
     instagram: "", // Optional - add if you want
   },
